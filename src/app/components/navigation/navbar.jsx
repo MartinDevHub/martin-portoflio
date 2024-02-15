@@ -15,7 +15,7 @@ export default function navbar() {
           scrolled ? "border-b border-stone-500 backdrop-blur-xl" : "bg-white/0"
         } z-30 transition-all`}
       >
-        NAVBAR
+        navbar
       </div>
     </>
   );
