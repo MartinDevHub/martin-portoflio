@@ -22,9 +22,9 @@ export default function NavBar() {
       >
         <div
           className="mx-6 flex h-16 max-w-screen-xl
-        items-center justify-between w-full"
+        items-center justify-between w-full cursor-pointer"
         >
-          <div className="flex items-center font-display align-center">
+          <div className="flex items-center font-display align-center w-1/3">
             <Link href="/" className="flex items-center font-display text-2xl">
               <span
                 className="flex justify-center items-center
@@ -34,7 +34,18 @@ export default function NavBar() {
               </span>
             </Link>
           </div>
-          <div className="flex justify-between gap-4">
+          <div className="flex justify-between gap-4 text-xl w-1/3">
+            <button className="hover:font-bold focus:text-blue-500 focus:font-bold">
+              About
+            </button>
+            <button className="hover:font-bold focus:text-blue-500 focus:font-bold">
+              Projects
+            </button>
+            <button className="hover:font-bold focus:text-blue-500 focus:font-bold">
+              CV
+            </button>
+          </div>
+          <div className="flex justify-end gap-4 w-1/3">
             {" "}
             <a
               href="https://www.linkedin.com/in/martinmarcoff/"
