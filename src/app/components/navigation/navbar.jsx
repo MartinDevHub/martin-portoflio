@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { LuGithub } from "react-icons/lu";
 import UseScroll from "@/app/lib/hooks/use-scroll";
+import NavBarButton from "../ui/navbar-button";
 
 export default function NavBar() {
   const scrolled = UseScroll(50);
@@ -35,15 +36,9 @@ export default function NavBar() {
             </Link>
           </div>
           <div className="flex justify-between gap-4 text-xl w-1/3">
-            <button className="hover:font-bold focus:text-blue-500 focus:font-bold">
-              About
-            </button>
-            <button className="hover:font-bold focus:text-blue-500 focus:font-bold">
-              Projects
-            </button>
-            <button className="hover:font-bold focus:text-blue-500 focus:font-bold">
-              CV
-            </button>
+            <NavBarButton text={"About"} />
+            <NavBarButton text={"Projects"} />
+            <NavBarButton text={"CV"} />
           </div>
           <div className="flex justify-end gap-4 w-1/3">
             {" "}
