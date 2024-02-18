@@ -6,7 +6,7 @@ import CV from "./components/home/cv";
 export default function Home() {
   return (
     <div className="flex flex-col gap-40 items-center">
-      <div className="h-screen flex items-center max-w-screen-xl">
+      <div className="h-screen flex items-center ">
         <Welcome />
       </div>
       <div className="bg-gray-900 w-screen flex justify-center py-20 shadow-md">
