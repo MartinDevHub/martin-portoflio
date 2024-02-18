@@ -9,17 +9,17 @@ export default function Home() {
       <div className="h-screen flex items-center ">
         <Welcome />
       </div>
-      <div className="bg-gray-900 w-screen flex justify-center py-20 shadow-md">
+      <div className="bg-gray-900 w-screen flex justify-center py-5 shadow-md">
         <div className="w-full max-w-screen-xl">
           <About />
         </div>
       </div>
-      <div className="bg-gray-900 w-screen flex justify-center py-20 shadow-md">
+      <div className="bg-gray-900 w-screen flex justify-center py-5 shadow-md">
         <div className="w-full max-w-screen-xl">
           <Projects />
         </div>
       </div>
-      <div className="bg-gray-900 w-screen flex justify-center py-20 shadow-md">
+      <div className="bg-gray-900 w-screen flex justify-center py-5 shadow-md">
         <div className="w-full max-w-screen-xl">
           <CV />
         </div>
