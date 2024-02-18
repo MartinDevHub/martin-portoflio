@@ -5,7 +5,7 @@ import CV from "./components/home/cv";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-40 items-center">
+    <div className="flex flex-col items-center">
       <div className="h-screen flex items-center ">
         <Welcome />
       </div>
