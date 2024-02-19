@@ -13,9 +13,10 @@ export default function Welcome() {
         <source src="/welcome-video.mp4" type="video/mp4" />
         Tu navegador no soporta el elemento de video.
       </video>
-      <h1 className="text-9xl font-bold text-white absolute z-10">
-        Welcome Message
-      </h1>
+      <div className=" font-bold text-white absolute z-10">
+        <div className="text-9xl">Martin Marcoff</div>
+        <div className="text-3xl">Fullstack Engineer</div>
+      </div>
     </div>
   );
 }
