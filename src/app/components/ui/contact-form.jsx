@@ -21,7 +21,7 @@ export default function ContactForm() {
     >
       <fieldset id="fs-frm-inputs">
         <div className="mb-4">
-          <label htmlFor="full-name" className="block text-gray-600">
+          <label htmlFor="full-name" className="block text-gray-600 py-2">
             Full Name
           </label>
           <input
@@ -34,7 +34,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email-address" className="block text-gray-600">
+          <label htmlFor="email-address" className="block text-gray-600 py-2">
             Email Address
           </label>
           <input
@@ -47,7 +47,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="message" className="block text-gray-600">
+          <label htmlFor="message" className="block text-gray-600 py-2">
             Message
           </label>
           <textarea
