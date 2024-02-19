@@ -38,7 +38,7 @@ export default function NavBar() {
           <div className="flex justify-between gap-4 text-xl w-1/3">
             <NavBarButton text={"About"} />
             <NavBarButton text={"Projects"} />
-            <NavBarButton text={"CV"} />
+            <NavBarButton text={"Contact"} />
           </div>
           <div className="flex justify-end gap-4 w-1/3">
             {" "}
