@@ -2,6 +2,14 @@
 
 import React from "react";
 import Image from "next/image";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiDotnet } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 
 const AboutImage = () => {
   return (
@@ -23,8 +31,44 @@ const AboutImage = () => {
             about rationally understanding the &quot;why&quot; behind things.
             Constant learner. Enthusiastic teacher. Proud nerd.
           </div>
-          <div>
-            <div className="text-center">Highlighted Hard Skills</div>
+          <div className="p-3 w-1/2">
+            <div className="text-center text-lg p-2">
+              Highlighted Hard Skills
+            </div>
+            <div className="grid grid-cols-4 grid-rows-2 gap-4">
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiHtml5 />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiCss3 />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiTailwindcss />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiJavascript />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiReact />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiDotnet />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <SiCsharp />
+              </div>
+              <div className="flex justify-center text-3xl p-4">
+                {" "}
+                <TbSql />
+              </div>
+            </div>
           </div>
         </div>
       </div>
