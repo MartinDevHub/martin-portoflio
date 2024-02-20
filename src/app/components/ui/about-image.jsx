@@ -2,6 +2,14 @@
 
 import React from "react";
 import Image from "next/image";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiDotnet } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 
 const AboutImage = () => {
   return (
@@ -16,20 +24,58 @@ const AboutImage = () => {
         objectFit="cover"
         style={{ filter: "grayscale(100%)", mixBlendMode: "multiply" }}
       />
-      <div className="absolute inset-0 flex items-start justify-start text-white text-center font-bold p-2 h-1/2 w-1/2">
+      <div className="absolute inset-0 flex items-start justify-start text-white  font-bold p-2 h-2/3 w-2/3">
         <div>
-          <div className="box-content text-base font-bold p-2">
-            Hello there! My name is Martin Marcoff, and I am a Fullstack
-            Engineer. Being a sociable person, I greatly enjoy teamwork. I
-            consider communication to be the indispensable skill for any
-            professional. I am tenacious in my professional life: I respond to
-            contingent scenarios with creativity.
+          <div className=" font-bold p-2 text-2xl">
+            Fullstack software engineer. Degreed social scientist. Passionate
+            about rationally understanding the &quot;why&quot; behind things.
+            Constant learner. Enthusiastic teacher. Proud nerd.
           </div>
-          <div className="box-content text-base font-bold p-2">
-            Want to learn discover more about me? Enter my professional journey!
-          </div>
-          <div className="p-2">
-            <button className="border rounded p-2">Join</button>
+          <div className="grid grid-cols-2">
+            <div className="p-3 ">
+              <div className="text-center text-lg p-2">
+                Highlighted Technical Skills
+              </div>
+              <div className="grid grid-cols-4 grid-rows-2 gap-4">
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiHtml5 />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiCss3 />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiTailwindcss />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiJavascript />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiReact />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiDotnet />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiCsharp />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <TbSql />
+                </div>
+              </div>
+            </div>
+            <div className="p-3 text-2xl items-center justify-center flex">
+              <a href="/CV_Marcoff.pdf" download="CV_Marcoff.pdf">
+                Download CV
+              </a>
+            </div>
           </div>
         </div>
       </div>
