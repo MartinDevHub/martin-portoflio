@@ -31,43 +31,48 @@ const AboutImage = () => {
             about rationally understanding the &quot;why&quot; behind things.
             Constant learner. Enthusiastic teacher. Proud nerd.
           </div>
-          <div className="p-3 w-1/2">
-            <div className="text-center text-lg p-2">
-              Highlighted Hard Skills
+          <div className="grid grid-cols-2">
+            <div className="p-3 ">
+              <div className="text-center text-lg p-2">
+                Highlighted Hard Skills
+              </div>
+              <div className="grid grid-cols-4 grid-rows-2 gap-4">
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiHtml5 />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiCss3 />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiTailwindcss />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiJavascript />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiReact />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiDotnet />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <SiCsharp />
+                </div>
+                <div className="flex justify-center text-3xl p-4">
+                  {" "}
+                  <TbSql />
+                </div>
+              </div>
             </div>
-            <div className="grid grid-cols-4 grid-rows-2 gap-4">
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiHtml5 />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiCss3 />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiTailwindcss />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiJavascript />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiReact />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiDotnet />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <SiCsharp />
-              </div>
-              <div className="flex justify-center text-3xl p-4">
-                {" "}
-                <TbSql />
-              </div>
+            <div className="p-3 text-2xl items-center justify-center flex">
+              <button>Download CV</button>
             </div>
           </div>
         </div>
