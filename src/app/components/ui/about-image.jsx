@@ -16,20 +16,15 @@ const AboutImage = () => {
         objectFit="cover"
         style={{ filter: "grayscale(100%)", mixBlendMode: "multiply" }}
       />
-      <div className="absolute inset-0 flex items-start justify-start text-white text-center font-bold p-2 h-1/2 w-1/2">
+      <div className="absolute inset-0 flex items-start justify-start text-white  font-bold p-2 h-2/3 w-2/3">
         <div>
-          <div className="box-content text-base font-bold p-2">
-            Hello there! My name is Martin Marcoff, and I am a Fullstack
-            Engineer. Being a sociable person, I greatly enjoy teamwork. I
-            consider communication to be the indispensable skill for any
-            professional. I am tenacious in my professional life: I respond to
-            contingent scenarios with creativity.
+          <div className=" font-bold p-2 text-2xl">
+            Fullstack software engineer. Degreed social scientist. Passionate
+            about rationally understanding the &quot;why&quot; behind things.
+            Constant learner. Enthusiastic teacher. Proud nerd.
           </div>
-          <div className="box-content text-base font-bold p-2">
-            Want to learn discover more about me? Enter my professional journey!
-          </div>
-          <div className="p-2">
-            <button className="border rounded p-2">Join</button>
+          <div>
+            <div className="text-center">Highlighted Hard Skills</div>
           </div>
         </div>
       </div>
