@@ -72,7 +72,9 @@ const AboutImage = () => {
               </div>
             </div>
             <div className="p-3 text-2xl items-center justify-center flex">
-              <button>Download CV</button>
+              <a href="/CV_Marcoff.pdf" download="CV_Marcoff.pdf">
+                Download CV
+              </a>
             </div>
           </div>
         </div>
