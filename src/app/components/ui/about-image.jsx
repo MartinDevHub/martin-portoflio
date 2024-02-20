@@ -34,7 +34,7 @@ const AboutImage = () => {
           <div className="grid grid-cols-2">
             <div className="p-3 ">
               <div className="text-center text-lg p-2">
-                Highlighted Hard Skills
+                Highlighted Technical Skills
               </div>
               <div className="grid grid-cols-4 grid-rows-2 gap-4">
                 <div className="flex justify-center text-3xl p-4">
