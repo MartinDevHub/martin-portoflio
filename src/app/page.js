@@ -7,15 +7,21 @@ import Footer from "./components/home/footer";
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
-      <div className="h-screen flex items-center">
+      <div className="h-screen flex items-center" id="welcomeSection">
         <Welcome />
       </div>
-      <div className="bg-gray-900 w-screen flex justify-center py-5 shadow-md">
+      <div
+        className="bg-gray-900 w-screen flex justify-center py-5 shadow-md"
+        id="aboutSection"
+      >
         <div className="w-full max-w-screen-xl">
           <About />
         </div>
       </div>
-      <div className="bg-gray-900 w-screen flex justify-center py-5 shadow-md">
+      <div
+        className="bg-gray-900 w-screen flex justify-center py-5 shadow-md"
+        id="projects-contactSection"
+      >
         <div className="w-full max-w-screen-xl flex flex-wrap justify-between">
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
             <Projects />
