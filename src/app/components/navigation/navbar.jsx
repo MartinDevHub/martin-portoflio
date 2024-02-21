@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import Image from "next/image";
 import { LuGithub } from "react-icons/lu";
 import UseScroll from "@/app/lib/hooks/use-scroll";
@@ -26,7 +26,12 @@ export default function NavBar() {
         items-center justify-between w-full cursor-pointer"
         >
           <div className="flex items-center font-display align-center w-1/3">
-            <Link href="/" className="flex items-center font-display text-2xl">
+            <Link
+              to="welcomeSection"
+              smooth={true}
+              duration={1500}
+              className="flex items-center font-display text-2xl"
+            >
               <span
                 className="flex justify-center items-center
                 gap-2 font-bold"
@@ -36,9 +41,15 @@ export default function NavBar() {
             </Link>
           </div>
           <div className="flex justify-between gap-4 text-xl w-1/3">
-            <NavBarButton text={"About"} />
-            <NavBarButton text={"Projects"} />
-            <NavBarButton text={"Contact"} />
+            <Link to="aboutSection" smooth={true} duration={1500}>
+              <NavBarButton text={"About"} />
+            </Link>
+            <Link to="projects-contactSection" smooth={true} duration={1500}>
+              <NavBarButton text={"Projects"} />
+            </Link>
+            <Link to="projects-contactSection" smooth={true} duration={1500}>
+              <NavBarButton text={"Contact"} />
+            </Link>
           </div>
           <div className="flex justify-end gap-4 w-1/3">
             {" "}
