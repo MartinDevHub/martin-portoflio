@@ -2,6 +2,7 @@ import Welcome from "@/app/components/home/welcome";
 import About from "./components/home/about";
 import Projects from "./components/home/projects";
 import Contact from "./components/home/contact";
+import Footer from "./components/home/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,11 @@ export default function Home() {
           <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
             <Contact />
           </div>
+        </div>
+      </div>
+      <div className="p-2 bg-gray-900 w-screen flex justify-center">
+        <div className=" p-2 border-t-2 border-solid w-1/2">
+          <Footer />
         </div>
       </div>
     </div>

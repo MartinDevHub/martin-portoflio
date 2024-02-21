@@ -29,7 +29,7 @@ export default function NavBar() {
             <Link href="/" className="flex items-center font-display text-2xl">
               <span
                 className="flex justify-center items-center
-                gap-2"
+                gap-2 font-bold"
               >
                 Martin Marcoff
               </span>
