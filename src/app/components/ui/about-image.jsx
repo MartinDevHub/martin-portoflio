@@ -35,51 +35,51 @@ const AboutImage = () => {
             behind how things work. Constant learner. Enthusiastic teacher.
           </div>
           <div className="flex justify-center mt-3 pl-5">
-            <div className="p-3 w-1/2 border-2 border-solid border-white rounded ">
-              <div className="grid grid-cols-4 grid-rows-2 gap-4 ">
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+            <div className="p-3  ">
+              <div className="flex flex-wrap justify-center gap-4">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiHtml5 />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiCss3 />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiTailwindcss />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiJavascript />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiReact />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiDotnet />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiCsharp />
                 </div>
-                <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <TbSql />
                 </div>
               </div>
             </div>
-            <div className="p-3 text-2xl items-center flex">
-              <a
-                href="/CV_Marcoff.pdf"
-                download="CV_Marcoff.pdf"
-                className=" font-bold text:blue-900 hover:text-white hover:bg-blue-900 hover:rounded text-white py-2  px-4  inline-block "
-              >
-                Download CV
-              </a>
-            </div>
+          </div>
+          <div className="mt-7 text-2xl justify-center flex">
+            <a
+              href="/CV_Marcoff.pdf"
+              download="CV_Marcoff.pdf"
+              className=" font-bold text:blue-900 hover:text-white bg-blue-900 hover:bg-white hover:text-blue-900 text-white py-2  px-4 rounded  inline-block "
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
