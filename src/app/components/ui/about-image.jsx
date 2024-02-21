@@ -34,11 +34,8 @@ const AboutImage = () => {
             </span>{" "}
             behind how things work. Constant learner. Enthusiastic teacher.
           </div>
-          <div className="flex justify-center mt-5">
+          <div className="flex justify-center mt-3 pl-5">
             <div className="p-3 w-1/2 border-2 border-solid border-white rounded ">
-              <div className="text-center text-lg p-2 text-white underline underline-offset-2 font-bold">
-                Highlighted Technical Skills
-              </div>
               <div className="grid grid-cols-4 grid-rows-2 gap-4 ">
                 <div className="flex justify-center text-3xl p-4 hover:shadow-2xl hover:shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
@@ -73,15 +70,15 @@ const AboutImage = () => {
                   <TbSql />
                 </div>
               </div>
-              <div className="p-3 text-2xl items-center justify-center flex">
-                <a
-                  href="/CV_Marcoff.pdf"
-                  download="CV_Marcoff.pdf"
-                  className=" hover:bg-blue-900 text-white py-2 px-4 rounded inline-block border-2"
-                >
-                  Download CV
-                </a>
-              </div>
+            </div>
+            <div className="p-3 text-2xl items-center flex">
+              <a
+                href="/CV_Marcoff.pdf"
+                download="CV_Marcoff.pdf"
+                className=" font-bold text:blue-900 hover:text-white hover:bg-blue-900 hover:rounded text-white py-2  px-4  inline-block "
+              >
+                Download CV
+              </a>
             </div>
           </div>
         </div>
