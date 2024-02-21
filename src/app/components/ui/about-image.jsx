@@ -25,21 +25,14 @@ const AboutImage = () => {
         style={{ filter: "grayscale(100%)", mixBlendMode: "multiply" }}
       />
       <div className="absolute inset-0 flex items-start justify-start text-white  p-2 h-2/3 w-2/3">
-      <div className="absolute inset-0 flex items-start justify-start text-white  p-2 h-2/3 w-2/3">
         <div>
-          <div className="p-2 text-2xl">
           <div className="p-2 text-2xl">
             Fullstack software engineer. Degreed social scientist. Passionate
             about rationally{" "}
             <span className="text-blue-900 font-bold">
               understanding the &quot;why&quot;
             </span>{" "}
-            behind how things work. Constant learner. Enthusiastic teacher.
-            about rationally{" "}
-            <span className="text-blue-900 font-bold">
-              understanding the &quot;why&quot;
-            </span>{" "}
-            behind how things work. Constant learner. Enthusiastic teacher.
+            behind how things work. Constant learner. Enthusiastic comunicator.
           </div>
           <div className="flex justify-center mt-3 pl-5">
             <div className="p-3  ">
@@ -83,7 +76,7 @@ const AboutImage = () => {
             <a
               href="/CV_Marcoff.pdf"
               download="CV_Marcoff.pdf"
-              className=" font-bold text:blue-900 hover:text-white bg-blue-900 hover:bg-white hover:text-blue-900 text-white py-2  px-4 rounded  inline-block "
+              className=" font-bold hover:text-blue-900  bg-blue-900 hover:bg-gray-800 hover:text-blue-900 text-white py-2 px-4 rounded inline-block"
             >
               Download CV
             </a>
