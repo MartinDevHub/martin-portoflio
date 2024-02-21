@@ -41,13 +41,23 @@ export default function NavBar() {
             </Link>
           </div>
           <div className="flex justify-between gap-4 text-xl w-1/3">
-            <Link to="aboutSection" smooth={true} duration={1500}>
+            <Link to="aboutSection" smooth={true} duration={1500} offset={-50}>
               <NavBarButton text={"About"} />
             </Link>
-            <Link to="projects-contactSection" smooth={true} duration={1500}>
+            <Link
+              to="projects-contactSection"
+              smooth={true}
+              duration={1500}
+              offset={-50}
+            >
               <NavBarButton text={"Projects"} />
             </Link>
-            <Link to="projects-contactSection" smooth={true} duration={1500}>
+            <Link
+              to="projects-contactSection"
+              smooth={true}
+              duration={1500}
+              offset={-50}
+            >
               <NavBarButton text={"Contact"} />
             </Link>
           </div>
