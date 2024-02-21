@@ -15,7 +15,7 @@ export default function Welcome() {
       </video>
       <div className=" font-bold text-white absolute z-10">
         <div className="text-9xl">Martin Marcoff</div>
-        <div className="text-3xl">Fullstack Engineer</div>
+        <div className="text-3xl">Fullstack Software Engineer</div>
       </div>
     </div>
   );
