@@ -6,7 +6,7 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const ProjectSlide = ({ imagePath, alt, title, description }) => (
+const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
   <div>
     <div
       className="rounded-t-xl flex justify-center items-center border
@@ -28,9 +28,14 @@ const ProjectSlide = ({ imagePath, alt, title, description }) => (
       <p className="text-center">{description}</p>
     </div>
     <div className="flex justify-center items-center mt-3">
-      <button className="text-white bg-blue-900 text-lg px-6 py-1 rounded-xl">
-        ¡Join the website!
-      </button>
+      <a
+        className="text-white bg-blue-900 text-lg px-6 py-1 rounded-xl"
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Join the website
+      </a>
     </div>
   </div>
 );
@@ -51,6 +56,7 @@ const ProjectsCarousel = () => {
       title: "Fractal Mind AI",
       description:
         "An AI-powered platform for digital asset valuation, to help funds and traders solve the time and money consuming research and analysis process, aggregating all data providers, offering strategies and fundamental analysis. I am in charge of the website's dashboard.",
+      url: "https://fractalmind.xyz/",
     },
     {
       imagePath: "/hebes-house.jpg",
@@ -58,6 +64,7 @@ const ProjectsCarousel = () => {
       alt: "hebes-house",
       description:
         "A hostel located in the Andes mountain range, accommodating a large flow of people throughout the year. I am currently developing a reservation system to automate and simplify its management.",
+      url: "https://hebeshouse.com.ar/",
     },
     {
       imagePath: "/messianicos.jpg",
