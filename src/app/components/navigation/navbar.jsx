@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-scroll";
-import Image from "next/image";
+import { SiLinkedin } from "react-icons/si";
 import { LuGithub } from "react-icons/lu";
 import UseScroll from "@/app/lib/hooks/use-scroll";
 import NavBarButton from "../ui/navbar-button";
@@ -22,15 +22,15 @@ export default function NavBar() {
         } z-30 transition-all`}
       >
         <div
-          className="mx-6 flex h-16 max-w-screen-xl
+          className="mx-6 flex sm:h-16 h-8 max-w-screen-xl
         items-center justify-between w-full cursor-pointer"
         >
-          <div className="flex items-center font-display align-center w-1/3">
+          <div className="sm:flex sm:items-center font-display sm:align-center sm:w-1/3">
             <Link
               to="welcomeSection"
               smooth={true}
               duration={1500}
-              className="flex items-center font-display text-2xl"
+              className="sm:flex sm:items-center font-display hidden sm:block sm:text-2xl"
             >
               <span
                 className="flex justify-center items-center
@@ -40,7 +40,7 @@ export default function NavBar() {
               </span>
             </Link>
           </div>
-          <div className="flex justify-between gap-4 text-xl w-1/3">
+          <div className="flex justify-between gap-4 sm:text-xl text-sm sm:w-1/3">
             <Link to="aboutSection" smooth={true} duration={1500} offset={-50}>
               <NavBarButton text={"About"} />
             </Link>
@@ -68,19 +68,14 @@ export default function NavBar() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                src="https://img.icons8.com/fluent/30/000000/linkedin-2.png"
-                alt="LinkedIn"
-                width={30}
-                height={30}
-              ></Image>
+              <SiLinkedin className="sm:text-2xl text-xl" />
             </a>
             <a
               href="https://github.com/MartinDevHub"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <LuGithub className="text-3xl" />
+              <LuGithub className="sm:text-2xl text-xl" />
             </a>
           </div>
         </div>

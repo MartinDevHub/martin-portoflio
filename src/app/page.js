@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       <div className="p-2 bg-gray-900 w-screen flex justify-center">
-        <div className=" p-2 border-t-2 border-solid w-1/2">
+        <div className=" p-2 border-t-2 border-solid sm:w-1/2">
           <Footer />
         </div>
       </div>
