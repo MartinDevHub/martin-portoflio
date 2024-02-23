@@ -22,11 +22,11 @@ const AboutImage = () => {
         alt="Descripción de la imagen"
         layout="fill"
         objectFit="cover"
-        style={{ filter: "grayscale(100%)", mixBlendMode: "multiply" }}
+        className="sm:filter sm:grayscale sm:mix-blend-multiply sm:block hidden"
       />
-      <div className="absolute inset-0 flex items-start justify-start text-white  p-2 h-2/3 w-2/3">
+      <div className="absolute inset-0 flex sm:items-start sm:justify-start text-white sm:p-2 sm:h-2/3 sm:w-2/3">
         <div>
-          <div className="p-2 text-2xl">
+          <div className="p-2 sm:text-2xl text-base">
             Fullstack software engineer. Degreed social scientist. Passionate
             about rationally{" "}
             <span className="text-blue-900 font-bold">
@@ -35,8 +35,8 @@ const AboutImage = () => {
             behind how things work. Constant learner. Enthusiastic comunicator.
           </div>
           <div className="flex justify-center mt-3 pl-5">
-            <div className="p-3  ">
-              <div className="flex flex-wrap justify-center gap-4">
+            <div className="p-3">
+              <div className="flex flex-wrap sm:justify-center gap-4">
                 <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiHtml5 />
