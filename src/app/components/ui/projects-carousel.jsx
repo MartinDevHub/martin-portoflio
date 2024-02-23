@@ -10,7 +10,7 @@ const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
   <div>
     <div
       className="rounded-t-xl flex justify-center items-center border
-  border-2 border-blue-900"
+  border-2 border-blue-900 sm:h-72"
     >
       <Image
         className="h-56 w-56 rounded-full m-4"
@@ -21,11 +21,17 @@ const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
       />
     </div>
     <div
-      className="h-48 border
-  border-2 border-blue-900 rounded-b-xl flex flex-col justify-center items-center p-4 gap-4 text-white"
+      className=" h-40 border
+  border-2 border-blue-900 rounded-b-xl flex flex-col justify-center items-center gap-4 text-white"
     >
-      <p className="text-xl font-semibold">{title}</p>
-      <p className="text-center">{description}</p>
+      <div className="sm:h-28 h-32">
+        <div className="w-full sm:h-8 text-center">
+          <p className="sm:text-xl text-sm font-semibold">{title}</p>
+        </div>
+        <div className=" sm:text-sm  text-xs text-center sm:h-8 p-1">
+          <p>{description}</p>
+        </div>
+      </div>
     </div>
     <div className="flex justify-center items-center mt-3">
       <a
