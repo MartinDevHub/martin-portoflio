@@ -7,7 +7,9 @@ export default function Projects() {
       <div className="text-2xl sm:text-4xl sm:pt-5 sm:py-5 p-2 font-bold sm:flex sm:justify-center mb-3 text-white">
         Projects
       </div>
-      <ProjectsCarousel />
+      <div>
+        <ProjectsCarousel />
+      </div>
     </div>
   );
 }

@@ -19,14 +19,14 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="bg-gray-900 w-screen flex justify-center py-5 shadow-md"
+        className="bg-gray-900 w-screen flex justify-center sm:py-5 shadow-md"
         id="projects-contactSection"
       >
-        <div className="w-full max-w-screen-xl flex flex-wrap justify-between">
-          <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
+        <div className="w-full sm:max-w-screen-xl flex flex-wrap sm:justify-between sm:grid sm:grid-cols-2 sm:gap-2">
+          <div className="w-full">
             <Projects />
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
+          <div className="w-full">
             <Contact />
           </div>
         </div>
