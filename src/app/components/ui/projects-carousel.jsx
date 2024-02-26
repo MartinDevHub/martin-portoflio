@@ -17,19 +17,19 @@ const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
         height={200}
       />
     </div>
-    <div className=" h-40 flex flex-col justify-center items-center gap-4 text-white">
-      <div className="sm:h-28 ">
-        <div className="w-full sm:h-8 text-center">
-          <p className="sm:text-xl text-sm font-semibold">{title}</p>
+    <div className="sm:h-64 flex justify-center text-white">
+      <div>
+        <div className="w-full h-8 text-center sm:text-xl text-sm font-semibold">
+          {title}
         </div>
-        <div className="flex justify-center  sm:text-sm  text-xs text-center sm:h-8 p-1">
-          <p>{description}</p>
+        <div className=" sm:text-lg text-xs text-center h-24 sm:h-48 items-center flex">
+          {description}
         </div>
       </div>
     </div>
-    <div className="flex justify-center items-center sm:mt-3 sm:mb-0 mb-5">
+    <div className="flex justify-center items-center">
       <a
-        className="text-white bg-blue-900 text-lg px-6 py-1 rounded-xl"
+        className="text-white bg-blue-900 text-sm sm:text-lg px-6 py-1 rounded-xl mt-3 sm:mb-0 mb-5"
         href={url}
         target="_blank"
         rel="noopener noreferrer"
