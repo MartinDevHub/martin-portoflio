@@ -4,7 +4,7 @@ import ContactForm from "@/app/components/ui/contact-form";
 export default function Contact() {
   return (
     <div>
-      <div className="text-4xl p-5 font-bold sm:flex sm:justify-center">
+      <div className="text-4xl p-5 font-bold sm:flex sm:justify-center text-white">
         Let&apos;s connect!
       </div>
       <div>

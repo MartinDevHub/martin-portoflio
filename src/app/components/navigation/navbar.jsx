@@ -23,7 +23,7 @@ export default function NavBar() {
       >
         <div
           className="mx-6 flex sm:h-16 h-8 max-w-screen-xl
-        items-center justify-between w-full cursor-pointer"
+        items-center justify-between w-full cursor-pointer text-white"
         >
           <div className="sm:flex sm:items-center font-display sm:align-center sm:w-1/3">
             <Link
