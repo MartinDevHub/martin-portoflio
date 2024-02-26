@@ -8,32 +8,26 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
   <div>
-    <div
-      className="rounded-t-xl flex justify-center items-center border
-  border-2 border-blue-900 sm:h-72"
-    >
+    <div className="flex justify-center items-center h-32 ">
       <Image
-        className="h-56 w-56 rounded-full m-4"
+        className="rounded"
         src={imagePath}
         alt={alt}
-        width={300}
-        height={300}
+        width={250}
+        height={200}
       />
     </div>
-    <div
-      className=" h-40 border
-  border-2 border-blue-900 rounded-b-xl flex flex-col justify-center items-center gap-4 text-white"
-    >
-      <div className="sm:h-28 h-32">
+    <div className=" h-40 flex flex-col justify-center items-center gap-4 text-white">
+      <div className="sm:h-28 ">
         <div className="w-full sm:h-8 text-center">
           <p className="sm:text-xl text-sm font-semibold">{title}</p>
         </div>
-        <div className=" sm:text-sm  text-xs text-center sm:h-8 p-1">
+        <div className="flex justify-center  sm:text-sm  text-xs text-center sm:h-8 p-1">
           <p>{description}</p>
         </div>
       </div>
     </div>
-    <div className="flex justify-center items-center mt-3">
+    <div className="flex justify-center items-center sm:mt-3 sm:mb-0 mb-5">
       <a
         className="text-white bg-blue-900 text-lg px-6 py-1 rounded-xl"
         href={url}
@@ -57,7 +51,7 @@ const ProjectsCarousel = () => {
 
   const projects = [
     {
-      imagePath: "/fractal-logo.jpg",
+      imagePath: "/fractal-logo.png",
       alt: "fractal-mind",
       title: "Fractal Mind AI",
       description:
@@ -65,15 +59,15 @@ const ProjectsCarousel = () => {
       url: "https://fractalmind.xyz/",
     },
     {
-      imagePath: "/hebes-house.jpg",
-      title: "Hebe's House Hostel",
+      imagePath: "/caviahuetours-logo.png",
+      title: "Hebe's House Hostel - Caviahue Tours",
       alt: "hebes-house",
       description:
         "A hostel located in the Andes mountain range, accommodating a large flow of people throughout the year. I am currently developing a reservation system to automate and simplify its management.",
       url: "https://hebeshouse.com.ar/",
     },
     {
-      imagePath: "/messianicos.jpg",
+      imagePath: "/messianicos3.jpg",
       title: "Messianicos",
       alt: "messianicos",
       description:

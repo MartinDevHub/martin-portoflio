@@ -22,7 +22,7 @@ export default function Home() {
         className="bg-gray-900 w-screen flex justify-center py-5 shadow-md"
         id="projects-contactSection"
       >
-        <div className="w-full max-w-screen-xl flex flex-wrap justify-between grid grid-cols-2 gap-2">
+        <div className="w-full sm:max-w-screen-xl flex flex-wrap justify-between sm:grid sm:grid-cols-2 sm:gap-2">
           <div className="w-full">
             <Projects />
           </div>
