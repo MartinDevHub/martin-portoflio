@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
   <div>
-    <div className="flex justify-center items-center h-32 ">
+    <div className="flex justify-center items-center sm:h-32 h-24">
       <Image
         className="rounded"
         src={imagePath}
@@ -17,12 +17,12 @@ const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
         height={200}
       />
     </div>
-    <div className="sm:h-64 flex justify-center text-white">
+    <div className="sm:h-64 h-32 flex justify-center text-white">
       <div>
-        <div className="w-full h-8 text-center sm:text-xl text-sm font-semibold">
+        <div className="w-full mt-3 sm:mt-0 h-12 sm:h-8 text-center sm:text-xl text-sm font-semibold">
           {title}
         </div>
-        <div className=" sm:text-lg text-xs text-center h-24 sm:h-48 items-center flex">
+        <div className=" sm:text-lg text-xs text-center h-12 sm:h-48 items-center flex">
           {description}
         </div>
       </div>
