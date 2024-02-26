@@ -18,7 +18,6 @@ export default function ContactForm() {
         acceptCharset="utf-8"
         action="https://formspree.io/f/mleqbzyv"
         method="post"
-        className="p-3"
       >
         <div className=" max-w-lg m-auto border-2 border-blue-900 rounded-xl p-5  w-3/4 sm:w-2/3">
           <fieldset id="fs-frm-inputs">
@@ -72,7 +71,7 @@ export default function ContactForm() {
             />
           </fieldset>
         </div>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-3">
           <input
             type="submit"
             value="Submit"
