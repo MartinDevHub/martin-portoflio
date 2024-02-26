@@ -29,7 +29,7 @@ const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
     </div>
     <div className="flex justify-center items-center">
       <a
-        className="text-white bg-blue-900 text-sm sm:text-lg px-6 py-1 rounded-xl mt-3 sm:mb-0 mb-5"
+        className="text-white bg-blue-900 text-sm sm:text-lg px-6 py-1 rounded-xl mt-3 sm:mb-1 mb-5"
         href={url}
         target="_blank"
         rel="noopener noreferrer"

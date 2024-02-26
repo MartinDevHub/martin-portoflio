@@ -14,8 +14,8 @@ import { TbSql } from "react-icons/tb";
 const AboutImage = () => {
   return (
     <div
-      className="relative overflow-hidden rounded"
-      style={{ width: "100%", height: "500px", backgroundColor: "#1C2131" }}
+      className="relative overflow-hidden rounded w-full bg-blue-900"
+      style={{ width: "100%", height: "320px", backgroundColor: "#1C2131" }}
     >
       <Image
         src="/yo2.jpg"
@@ -24,9 +24,9 @@ const AboutImage = () => {
         objectFit="cover"
         className="sm:filter sm:grayscale sm:mix-blend-multiply sm:block hidden"
       />
-      <div className="absolute inset-0 flex sm:items-start sm:justify-start text-white sm:p-2 sm:h-2/3 sm:w-2/3">
+      <div className="absolute text-white inset-0 flex sm:items-start sm:justify-start sm:p-2 sm:w-2/3">
         <div>
-          <div className="p-2 sm:text-2xl text-base">
+          <div className="p-2 sm:text-2xl text-sm text-center sm:text-left text-base">
             Fullstack software engineer. Degreed social scientist. Passionate
             about rationally{" "}
             <span className="text-blue-900 font-bold">
@@ -34,49 +34,49 @@ const AboutImage = () => {
             </span>{" "}
             behind how things work. Constant learner. Enthusiastic comunicator.
           </div>
-          <div className="flex justify-center mt-3 pl-5">
+          <div className="flex justify-center sm:mt-3 sm:pl-5">
             <div className="p-3">
-              <div className="flex flex-wrap sm:justify-center gap-4">
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+              <div className="flex flex-wrap justify-center gap-4">
+                <div className="flex justify-center text-xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiHtml5 />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiCss3 />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiTailwindcss />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiJavascript />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiReact />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiDotnet />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <SiCsharp />
                 </div>
-                <div className="flex justify-center text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
+                <div className="flex justify-center text-2xl sm:text-3xl p-4 shadow-xl shadow-blue-900 cursor-pointer text-blue-900">
                   {" "}
                   <TbSql />
                 </div>
               </div>
             </div>
           </div>
-          <div className="mt-7 text-2xl justify-center flex">
+          <div className="sm:mt-7 mt-2 justify-center flex">
             <a
               href="/CV_Marcoff.pdf"
               download="CV_Marcoff.pdf"
-              className=" font-bold hover:text-blue-900  bg-blue-900 hover:bg-gray-800 hover:text-blue-900 text-white py-2 px-4 rounded inline-block"
+              className="font-bold hover:text-blue-900 text-sm sm:text-2xl bg-blue-900 hover:bg-gray-800 hover:text-blue-900 text-white py-2 px-4 rounded inline-block"
             >
               Download CV
             </a>
