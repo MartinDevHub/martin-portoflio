@@ -78,11 +78,6 @@ export default function ContactForm() {
           </fieldset>
         </div>
         <div className="flex justify-center">
-          {/* <input
-            type="submit"
-            value="Submit"
-            className="text-white bg-blue-900  px-6 py-1 rounded-xl cursor-pointer text-sm sm:text-lg  mt-3 mb-1"
-          /> */}
           <DefaultButton text={"Submit"} />
         </div>
       </form>
