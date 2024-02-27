@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import DefaultButton from "./default-button";
 
 const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
   <div>
@@ -28,14 +29,15 @@ const ProjectSlide = ({ imagePath, alt, title, description, url }) => (
       </div>
     </div>
     <div className="flex justify-center items-center">
-      <a
+      {/* <a
         className="text-white bg-blue-900 text-sm sm:text-lg px-6 py-1 rounded-xl mt-3 sm:mb-1 mb-5"
         href={url}
         target="_blank"
         rel="noopener noreferrer"
       >
         Join the website
-      </a>
+      </a> */}
+      <DefaultButton text={"Join the website"} url={url} />
     </div>
   </div>
 );

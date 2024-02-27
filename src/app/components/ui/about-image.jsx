@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import DefaultButton from "./default-button";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
@@ -73,13 +74,14 @@ const AboutImage = () => {
             </div>
           </div>
           <div className="sm:mt-7 mt-2 justify-center flex">
-            <a
+            {/* <a
               href="/CV_Marcoff.pdf"
               download="CV_Marcoff.pdf"
               className="font-bold hover:text-blue-900 text-sm sm:text-2xl bg-blue-900 hover:bg-gray-800 hover:text-blue-900 text-white py-2 px-4 rounded inline-block"
             >
               Download CV
-            </a>
+            </a> */}
+            <DefaultButton text={"Download CV"} url={"/CV_Marcoff.pdf"} />
           </div>
         </div>
       </div>
