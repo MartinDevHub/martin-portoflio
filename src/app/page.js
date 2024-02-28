@@ -18,15 +18,12 @@ export default function Home() {
           <About />
         </div>
       </div>
-      <div
-        className="bg-gray-900 w-screen flex justify-center sm:py-5 shadow-md"
-        id="projects-contactSection"
-      >
+      <div className="bg-gray-900 w-screen flex justify-center sm:py-5 shadow-md">
         <div className="w-full sm:max-w-screen-xl flex flex-wrap sm:justify-between sm:grid sm:grid-cols-2 sm:gap-2">
-          <div className="w-full">
+          <div className="w-full" id="projectsSection">
             <Projects />
           </div>
-          <div className="w-full">
+          <div className="w-full" id="contactSection">
             <Contact />
           </div>
         </div>

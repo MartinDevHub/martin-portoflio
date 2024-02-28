@@ -45,7 +45,7 @@ export default function NavBar() {
               <NavBarButton text={"About"} />
             </Link>
             <Link
-              to="projects-contactSection"
+              to="projectsSection"
               smooth={true}
               duration={1500}
               offset={-50}
@@ -53,7 +53,7 @@ export default function NavBar() {
               <NavBarButton text={"Projects"} />
             </Link>
             <Link
-              to="projects-contactSection"
+              to="contactSection"
               smooth={true}
               duration={1500}
               offset={-50}

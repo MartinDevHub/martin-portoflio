@@ -28,8 +28,8 @@ const AboutImage = () => {
       <div className="absolute text-white inset-0 flex sm:items-start sm:justify-start sm:p-2 sm:w-2/3">
         <div>
           <div className="p-2 sm:text-2xl text-sm text-center sm:text-left text-base">
-            Fullstack software engineer. Degreed social scientist. Passionate
-            about rationally{" "}
+            Fullstack software developer. System Analysis student. Degreed
+            social scientist. Passionate about rationally{" "}
             <span className="text-blue-900 font-bold">
               understanding the &quot;why&quot;
             </span>{" "}
@@ -74,13 +74,6 @@ const AboutImage = () => {
             </div>
           </div>
           <div className="sm:mt-7 mt-2 justify-center flex">
-            {/* <a
-              href="/CV_Marcoff.pdf"
-              download="CV_Marcoff.pdf"
-              className="font-bold hover:text-blue-900 text-sm sm:text-2xl bg-blue-900 hover:bg-gray-800 hover:text-blue-900 text-white py-2 px-4 rounded inline-block"
-            >
-              Download CV
-            </a> */}
             <DefaultButton text={"Download CV"} url={"/CV_Marcoff.pdf"} />
           </div>
         </div>
